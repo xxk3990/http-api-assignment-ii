@@ -1,0 +1,28 @@
+{
+  "name": "http-api-hw-ii",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\"",
+    "nodemon": "nodemon --watch ./src ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxk3990/http-api-hw-ii.git"
+  },
+  "author": "Xander K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxk3990/http-api-hw-ii/issues"
+  },
+  "homepage": "https://github.com/xxk3990/http-api-hw-ii#readme",
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "nodemon": "^2.0.4"
+  }
+}
